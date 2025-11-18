@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"poc-golang-learn/src/helpers"
+)
 
 func main() {
-	fmt.Println("Hello, World!")
+	randomNum := helpers.RandomInt(1, 100)
+	fmt.Printf("Random number: %d\n", randomNum)
 }
