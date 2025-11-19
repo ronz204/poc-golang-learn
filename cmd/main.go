@@ -6,6 +6,8 @@ import (
 )
 
 func main() {
-	random := helpers.RandomInt(1, 100)
+	min, max := 1, 100
+
+	random := helpers.RandomInt(min, max)
 	fmt.Printf("Random number: %d\n", random)
 }
