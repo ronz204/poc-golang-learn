@@ -5,4 +5,5 @@ import "poc-golang-learn/src/demos"
 func main() {
 	demos.VariablesDemo()
 	demos.ConditionsDemo()
+	demos.LoopingDemo()
 }
