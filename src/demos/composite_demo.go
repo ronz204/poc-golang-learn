@@ -1,8 +1,6 @@
 package demos
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func CompositeDemo() {
 	numbers := []int{10, 20, 30, 40, 50}

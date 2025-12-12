@@ -8,4 +8,5 @@ func main() {
 	demos.LoopingDemo()
 	demos.CompositeDemo()
 	demos.StructuringDemo()
+	demos.FunctionsDemo()
 }
