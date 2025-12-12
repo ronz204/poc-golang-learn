@@ -7,4 +7,5 @@ func main() {
 	demos.ConditionsDemo()
 	demos.LoopingDemo()
 	demos.CompositeDemo()
+	demos.StructuringDemo()
 }
