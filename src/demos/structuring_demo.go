@@ -1,14 +1,23 @@
 package demos
 
+import "fmt"
+
 type Contact struct {
 	Email string
 	Phone string
 }
 
 type Customer struct {
-	Name string
-	Contact
-	Active bool
+	Name    string
+	Contact Contact
+	Active  bool
+}
+
+func (c *Customer) Display() {
+	fmt.Println("Name:", c.Name)
+	fmt.Println("Active:", c.Active)
+	fmt.Println("Email:", c.Contact.Email)
+	fmt.Println("Phone:", c.Contact.Phone)
 }
 
 func StructuringDemo() {
@@ -21,6 +30,5 @@ func StructuringDemo() {
 		Active: true,
 	}
 
-	println("Customer Name:", customer1.Name)
-	println("Is Active:", customer1.Active)
+	customer1.Display()
 }
