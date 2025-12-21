@@ -1,12 +1,7 @@
 package main
 
-import "poc-golang-learn/src/demos"
+import "fmt"
 
 func main() {
-	demos.VariablesDemo()
-	demos.ConditionsDemo()
-	demos.LoopingDemo()
-	demos.CompositeDemo()
-	demos.StructuringDemo()
-	demos.FunctionsDemo()
+	fmt.Println("Hello, World!")
 }
