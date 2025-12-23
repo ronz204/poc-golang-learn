@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "poc-golang-learn/src/patterns"
 
 func main() {
-	fmt.Println("Hello, World!")
+	patterns.DemoWorkerPool()
 }
